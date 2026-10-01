@@ -50,12 +50,17 @@ export const Hero = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative"
         >
-          <div className="relative aspect-[3/2] rounded-2xl overflow-hidden shadow-2xl z-10">
+          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl z-10 bg-sage-light/20 flex items-end">
             <img 
               src={siteConfig.hero.image} 
               alt="Terapeuta Ludmila Deolinda" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
+              onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"; }}
             />
+            {/* Elemento de rodapé para "ancorar" a imagem */}
+            <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/60 to-transparent z-20 flex items-end p-4">
+              <p className="text-white text-sm font-light tracking-wide">Ludmila Deolinda</p>
+            </div>
           </div>
           {/* Subtle organic shape behind image */}
           <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-sage rounded-2xl -z-10" />

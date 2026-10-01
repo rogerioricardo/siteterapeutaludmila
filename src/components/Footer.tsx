@@ -30,7 +30,7 @@ export const Footer = () => {
           </nav>
           
           <div className="flex items-center gap-6">
-            <a href="#" className="w-10 h-10 rounded-full bg-off-white flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300">
+            <a href={siteConfig.contact.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-off-white flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300">
               <Instagram size={20} />
             </a>
             <a href={`mailto:${siteConfig.contact.email}`} className="w-10 h-10 rounded-full bg-off-white flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300">
