@@ -49,9 +49,14 @@ export const AdminPanel = () => {
     setConfig(newConfig);
   };
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(JSON.stringify(config, null, 2));
-    alert("Configuração copiada! Cole no arquivo src/data/siteConfig.ts");
+  const handleCopy = async () => {
+    const json = JSON.stringify(config, null, 2);
+    try {
+      await navigator.clipboard.writeText(json);
+      alert("Configuração copiada!");
+    } catch (err) {
+      alert("Erro ao copiar. Por favor, copie o texto na caixa abaixo.");
+    }
   };
 
   const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
@@ -133,9 +138,26 @@ export const AdminPanel = () => {
         ))}
       </Section>
 
-      <button onClick={handleCopy} className="bg-primary text-white px-8 py-3 rounded-lg font-bold text-lg sticky bottom-4">
-        Gerar e Copiar JSON Final
-      </button>
+      <Section title="Eu na Mídia (Vídeos)">
+        <input type="text" value={config.media.title} onChange={(e) => handleInputChange('media.title', e.target.value)} className="w-full p-2 border rounded mb-2" />
+        {config.media.videos.map((item: any, index: number) => (
+          <div key={index} className="mb-4 p-4 border rounded">
+            <input type="text" value={item.title} onChange={(e) => handleArrayChange('media.videos', index, 'title', e.target.value)} className="w-full p-2 border rounded mb-2" />
+            <input type="text" value={item.url} onChange={(e) => handleArrayChange('media.videos', index, 'url', e.target.value)} className="w-full p-2 border rounded" placeholder="URL do YouTube (embed)" />
+          </div>
+        ))}
+      </Section>
+
+      <Section title="Copiar Configuração">
+        <button onClick={handleCopy} className="bg-primary text-white px-8 py-3 rounded-lg font-bold text-lg mb-4">
+          Gerar e Copiar JSON Final
+        </button>
+        <textarea 
+          readOnly 
+          value={JSON.stringify(config, null, 2)} 
+          className="w-full h-64 p-4 border rounded font-mono text-sm"
+        />
+      </Section>
     </div>
   );
 };

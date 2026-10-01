@@ -21,6 +21,7 @@ export const Header = () => {
     { name: 'Como Posso Ajudar', href: '#servicos' },
     { name: 'Atendimentos', href: '#como-funciona' },
     { name: 'Depoimentos', href: '#depoimentos' },
+    { name: 'Eu na Mídia', href: '#midia' },
     { name: 'Contato', href: '#contato' },
   ];
 
@@ -36,7 +37,7 @@ export const Header = () => {
             {siteConfig.name}
           </span>
           <span className="text-xs uppercase tracking-widest font-medium transition-colors text-white/90">
-            {siteConfig.profession}
+            {siteConfig.profession} <span className="text-sage-light">| CRT 53400</span>
           </span>
         </a>
 
@@ -83,7 +84,7 @@ export const Header = () => {
                 {siteConfig.name}
               </span>
               <span className="text-xs uppercase tracking-widest text-primary font-medium">
-                {siteConfig.profession}
+                {siteConfig.profession} <span className="text-sage">| CRT 53400</span>
               </span>
             </div>
             <button onClick={() => setIsMobileMenuOpen(false)}>

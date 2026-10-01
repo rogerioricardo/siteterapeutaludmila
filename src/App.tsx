@@ -8,6 +8,7 @@ import { Differentials } from './sections/Differentials';
 import { HowItWorks } from './sections/HowItWorks';
 import { CentralPhrase } from './sections/CentralPhrase';
 import { Testimonials } from './sections/Testimonials';
+import { Media } from './sections/Media';
 import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
@@ -31,6 +32,7 @@ export default function App() {
         <HowItWorks />
         <CentralPhrase />
         <Testimonials />
+        <Media />
         <FAQ />
         <Contact />
       </main>
