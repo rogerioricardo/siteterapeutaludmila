@@ -12,8 +12,13 @@ import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
+import { AdminPanel } from './components/AdminPanel';
 
 export default function App() {
+  if (window.location.pathname === '/admin') {
+    return <AdminPanel />;
+  }
+
   return (
     <div className="min-h-screen bg-off-white selection:bg-sage/30">
       <Header />

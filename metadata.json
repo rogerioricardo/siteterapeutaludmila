@@ -1,6 +1,6 @@
 {
-  "name": "Ludmila de Olinda | Terapeuta",
-  "description": "Espaço de acolhimento, escuta e cuidado. Terapia com foco em autoconhecimento, ansiedade e desenvolvimento pessoal com a terapeuta Ludmila de Olinda.",
+  "name": "Ludmila Deolinda | Terapeuta",
+  "description": "Espaço de acolhimento, escuta e cuidado. Terapia com foco em autoconhecimento, ansiedade e desenvolvimento pessoal com a terapeuta Ludmila Deolinda.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

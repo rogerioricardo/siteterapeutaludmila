@@ -18,7 +18,7 @@ export const About = () => {
              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
               <img 
                 src={siteConfig.about.image} 
-                alt="Ludmila de Olinda" 
+                alt="Ludmila Deolinda" 
                 className="w-full h-full object-cover"
               />
             </div>

@@ -92,8 +92,17 @@ export const Contact = () => {
             </div>
             
             {/* Map Placeholder */}
-            <div className="w-full h-64 bg-sage-light/20 rounded-2xl flex items-center justify-center border-2 border-dashed border-sage">
-              <p className="text-sage font-medium italic">O mapa será exibido aqui após o endereço ser definido</p>
+            <div className="w-full h-64 rounded-2xl overflow-hidden border border-sage-light">
+              <iframe 
+                src={siteConfig.location.mapUrl} 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização do Consultório"
+              ></iframe>
             </div>
           </motion.div>
         </div>

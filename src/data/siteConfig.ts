@@ -1,19 +1,22 @@
 
 export const siteConfig = {
-  name: "Ludmila de Olinda",
+  name: "Ludmila Deolinda",
   profession: "Terapeuta",
   domain: "https://terapeutaludmiladeolinda.com.br/",
   contact: {
-    whatsapp: "554896302042", // Atualizado para 48 9630-2042
-    instagram: "@ludmiladeolinda",
+    whatsapp: "5548996302042",
+    instagram: "https://www.instagram.com/ludmilla_deolinda",
+    tiktok: "https://www.tiktok.com/@ludmila.deolinda?_r=1&_t=ZS-9A4D8MHAGHt",
+    youtube: "https://www.youtube.com/@ludmilladeolindaterapias",
+    facebook: "https://www.facebook.com/share/1MH5Afgfyj/",
     email: "contato@ludmiladeolinda.com.br",
-    phone: "+55 48 9630-2042",
+    phone: "+55 48 99630-2042",
   },
   location: {
-    address: "Endereço a definir",
-    city: "Olinda",
-    state: "PE",
-    mapUrl: "", // Link do Google Maps
+    address: "R. Cel. Pedro Benedet, 46 - Centro, Criciúma - SC, 88801-250",
+    city: "Criciúma",
+    state: "SC",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.406180758666!2d-49.3680794!3d-28.6774939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521795445d1cecb%3A0x2990a09798b84710!2sLudmila%20Deolinda%2FReiki%20%2FCrici%C3%BAma!5e0!3m2!1spt-BR!2sbr!4v1790632262496!5m2!1spt-BR!2sbr",
   },
   hero: {
     kicker: "UM ESPAÇO PARA VOCÊ",
@@ -28,12 +31,18 @@ export const siteConfig = {
     complement: "Cada processo é único. Meu papel é oferecer escuta, acolhimento e um espaço seguro para que você possa se reconectar consigo mesma.",
   },
   about: {
-    title: "Olá, eu sou Ludmila.",
+    title: "Reconecte-se com quem você realmente é",
     image: "/src/assets/images/ludmila_about_portrait_1790467206896.jpg",
     content: [
-      "Sou apaixonada por acompanhar processos de transformação e autoconhecimento. Acredito que a terapia é um portal para uma vida mais autêntica e conectada com o que realmente importa para você.",
-      "Meu trabalho é pautado na escuta ativa, no respeito à individualidade e na criação de um ambiente seguro onde todas as suas questões podem ser acolhidas sem julgamentos.",
-      "A jornada do cuidado de si não é linear, mas é, sem dúvida, o investimento mais valioso que podemos fazer em nossa própria existência.",
+      "Eu acredito que, por trás dos padrões, medos, crenças e experiências que carregamos, existe uma essência que continua esperando para ser reencontrada.",
+      "Meu trabalho nasceu do desejo de acompanhar pessoas em seus processos de autoconhecimento, expansão de consciência e transformação emocional, criando um espaço de escuta, acolhimento e reflexão profunda.",
+      "Por meio do meu trabalho terapêutico e do Método Reconexão, convido você a olhar para dentro, compreender seus gatilhos, reconhecer padrões que já não fazem sentido e ampliar a percepção sobre suas escolhas e sua própria história.",
+      "Não se trata de apagar quem você foi, mas de compreender a sua trajetória, ressignificar o que precisa ser transformado e abrir espaço para uma nova maneira de se relacionar consigo mesma, com os outros e com a vida.",
+      "Minha proposta é caminhar ao seu lado nesse processo, com escuta ativa, respeito à sua individualidade e sem julgamentos, integrando aspectos emocionais, espirituais e pessoais.",
+      "Porque transformação não significa se tornar outra pessoa.",
+      "É reencontrar quem você é por trás de tudo aquilo que aprendeu a ser.",
+      "Se você sente que chegou o momento de se olhar com mais profundidade, talvez este seja o seu próximo passo.",
+      "Existe uma versão de você esperando para ser reencontrada. E eu posso te acompanhar nesse caminho.",
     ],
     buttonText: "Conheça mais sobre mim",
   },
@@ -156,6 +165,6 @@ export const siteConfig = {
     ],
   },
   footer: {
-    copyright: "© 2026 Ludmila de Olinda. Todos os direitos reservados.",
+    copyright: "© 2026 Ludmila Deolinda. Todos os direitos reservados.",
   },
 };

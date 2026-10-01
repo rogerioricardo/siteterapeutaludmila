@@ -53,7 +53,7 @@ export const Hero = () => {
           <div className="relative aspect-[3/2] rounded-2xl overflow-hidden shadow-2xl z-10">
             <img 
               src={siteConfig.hero.image} 
-              alt="Terapeuta Ludmila de Olinda" 
+              alt="Terapeuta Ludmila Deolinda" 
               className="w-full h-full object-cover"
             />
           </div>
