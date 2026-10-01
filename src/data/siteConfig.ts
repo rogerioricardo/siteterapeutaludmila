@@ -32,7 +32,7 @@ export const siteConfig = {
   },
   about: {
     title: "Reconecte-se com quem você realmente é",
-    image: "/src/assets/images/ludmila_about_portrait_1790467206896.jpg",
+    image: "/src/assets/images/ludmila-sobre.jpeg.jpg",
     content: [
       "Eu acredito que, por trás dos padrões, medos, crenças e experiências que carregamos, existe uma essência que continua esperando para ser reencontrada.",
       "Meu trabalho nasceu do desejo de acompanhar pessoas em seus processos de autoconhecimento, expansão de consciência e transformação emocional, criando um espaço de escuta, acolhimento e reflexão profunda.",
