@@ -32,7 +32,7 @@ export const siteConfig = {
   },
   about: {
     title: "Reconecte-se com quem você realmente é",
-    image: "/src/assets/images/ludmila-sobre.jpeg.jpg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Eu acredito que, por trás dos padrões, medos, crenças e experiências que carregamos, existe uma essência que continua esperando para ser reencontrada.",
       "Meu trabalho nasceu do desejo de acompanhar pessoas em seus processos de autoconhecimento, expansão de consciência e transformação emocional, criando um espaço de escuta, acolhimento e reflexão profunda.",
@@ -50,29 +50,32 @@ export const siteConfig = {
     title: "Como posso ajudar você?",
     subtitle: "Um espaço de cuidado pensado para respeitar sua história, seu momento e suas necessidades.",
     items: [
+      { title: "Reiki", description: "Terapia energética para equilíbrio e relaxamento profundo." },
+      { title: "Barras de Access", description: "Técnica para liberar crenças e pensamentos limitantes." },
+      { title: "Apometria", description: "Terapia energética para limpeza e reequilíbrio espiritual." },
+      { title: "Constelação Familiar", description: "Olhar para o sistema familiar e liberar padrões repetitivos." },
+      { title: "Grupos de Constelação", description: "Vivências em grupo para olhar para questões sistêmicas." },
+      { title: "Grupos de Práticas de Expansão de Consciência", description: "Espaço para ampliar a percepção sobre si e sobre a vida." },
+      { title: "Método Reconexão", description: "Processo terapêutico de autoconhecimento e transformação emocional." },
+    ],
+  },
+  courses: {
+    title: "Meus Cursos",
+    items: [
       {
-        title: "Autoconhecimento",
-        description: "Um espaço para compreender melhor seus sentimentos, pensamentos e comportamentos.",
+        title: "Curso 1",
+        description: "Em breve",
+        link: "#",
       },
       {
-        title: "Ansiedade e emoções",
-        description: "Acolhimento e acompanhamento para compreender e lidar melhor com suas emoções.",
+        title: "Curso 2",
+        description: "Em breve",
+        link: "#",
       },
       {
-        title: "Relacionamentos",
-        description: "Reflexão e cuidado sobre relações, limites, comunicação e vínculos.",
-      },
-      {
-        title: "Autoestima",
-        description: "Um processo de reconexão com seu próprio valor, identidade e potencial.",
-      },
-      {
-        title: "Momentos de mudança",
-        description: "Acompanhamento em fases de transição, decisões e novos caminhos.",
-      },
-      {
-        title: "Desenvolvimento pessoal",
-        description: "Um espaço para ampliar a consciência sobre si e construir novas possibilidades.",
+        title: "Curso 3",
+        description: "Em breve",
+        link: "#",
       },
     ],
   },
@@ -120,7 +123,7 @@ export const siteConfig = {
   centralPhrase: {
     text: "“Talvez o primeiro passo seja simplesmente permitir-se começar.”",
     buttonText: "Quero conversar com a Ludmila",
-    background: "/src/assets/images/serene_nature_background_1790467218004.jpg",
+    background: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1600&auto=format&fit=crop",
   },
   testimonials: {
     title: "O que dizem sobre meu trabalho",
@@ -172,11 +175,11 @@ export const siteConfig = {
     videos: [
       {
         title: "Entrevista PodCast Senso Comum",
-        url: "https://rr2---sn-javopm-jjhe.googlevideo.com/videoplayback?expire=1790891298&ei=woC-asS9A5e_hcIPzJLeoAM&ip=64.137.48.102&id=o-AH8pIpzDvL90gqilmFScOxcV7OGvEfw9-ayqJ9WGDngj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AWzQHwpOu7s2J1JaG6LOfB4dBsnNnciRc4lRnyxPdU--ctUJ_dFL-_ywUHr5ErFiCh2XetahjUgrPkS6&spc=I-rgIcRio8WnxA3c-LQb5NNfVE17rtYgZHKdcf223Lnpzjn_JCvy-qIkNPnzU6O0mFDvmg&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=215277727&ratebypass=yes&dur=4496.892&lmt=1790139118005383&fexp=51565115,52112905,52184226&c=ANDROID&txp=4438234&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRQIhAKP1B3OCYBQZ8lon6BF0woTS0KI-suIxR6-OtQ8uMJAoAiBbqFQ4OZMTUkY56YxFmsNZDu7TBAWcFpqyrp_hwm0QyA%3D%3D&redirect_counter=1&rm=sn-25gys76&rrc=104&req_id=1c5bc60386a8a3ee&cms_redirect=yes&cmsv=e&cps=0&ipbypass=yes&met=1790869702,&mh=gV&mip=170.78.240.158&mm=31&mn=sn-javopm-jjhe&ms=au&mt=1790869050&mv=m&mvi=2&pl=24&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAOJKfphhyu_349TtL1eDMaTrp6nbiwybqN7t7aqSt3H0AiARq95FhVYlE_UJRWRTyHyKHMMpWCSER14BUvZ-QsDMQg%3D%3D",
+        url: "https://www.youtube.com/watch?v=rTbc9DVZkGU",
       },
       {
         title: "Entrevista no Programa Ver Mais Criciúma",
-        url: "https://rr2---sn-pmcg-bg0k.googlevideo.com/videoplayback?expire=1790891772&ei=nIK-avykHJaJkucP3OiKyQw&ip=45.38.78.62&id=o-ABEQPR5t0CBAh1o_8ZUqm9PqXXcJF-XMqTsl_K4dD7um&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AWzQHwrk9_zEhcYIV4dUm170RpmaHpc33d6YqvcIcJpGgEDKIZrN-nJgsS0Ht7a0EWoF_pCvrZ1jnCjH&spc=I-rgISk9yzg5CEBEkVyIOLET50CIdwVIA0xvJQRILmO_mAkVNbmVH22uuM80f7FRyAN0uw&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=540.537&lmt=1697414911807399&fexp=51565115,52112905,52184227&c=ANDROID&txp=6218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRQIgBIw1k8XHTc3bAD9fKdZHGiI3sHPQ6yumTmg9yUAOhlQCIQCQcOw5vLiz8z9_ePD3fOhmhHybqci-86i5fwXdRDdKLg%3D%3D&redirect_counter=1&rm=sn-t0ad7s&rrc=104&req_id=a7fde1f280e3a3ee&cms_redirect=yes&cmsv=e&cps=0&ipbypass=yes&met=1790870175,&mh=Fo&mip=170.78.240.158&mm=31&mn=sn-pmcg-bg0k&ms=au&mt=1790869369&mv=u&mvi=2&pl=22&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhANfIZdVuF_uTNuoAYGISPzSLYWiyzpViXxAkmPPls5iPAiEAgKu_9FbhCkVQBVNUFCJ_oLZe8PcTvjudoCp06pomWpk%3D",
+        url: "https://youtu.be/rTbc9DVZkGU?si=GRhZrD09N00jUNt6",
       },
     ],
   },

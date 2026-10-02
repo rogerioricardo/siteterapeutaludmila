@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { siteConfig } from '../data/siteConfig';
+import mindImage from '../assets/images/about_mind_concept_1790971387821.jpg';
 
 export const About = () => {
   return (
@@ -15,10 +16,10 @@ export const About = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src={siteConfig.about.image} 
-                alt="Ludmila Deolinda" 
+                src={mindImage}
+                alt="Conceito da mente humana" 
                 className="w-full h-full object-cover"
               />
             </div>

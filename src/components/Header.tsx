@@ -19,6 +19,7 @@ export const Header = () => {
     { name: 'Início', href: '#' },
     { name: 'Sobre Mim', href: '#sobre' },
     { name: 'Como Posso Ajudar', href: '#servicos' },
+    { name: 'Cursos', href: '#cursos' },
     { name: 'Atendimentos', href: '#como-funciona' },
     { name: 'Depoimentos', href: '#depoimentos' },
     { name: 'Eu na Mídia', href: '#midia' },

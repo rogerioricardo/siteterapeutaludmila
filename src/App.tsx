@@ -4,6 +4,7 @@ import { Hero } from './sections/Hero';
 import { ImpactPhrase } from './sections/ImpactPhrase';
 import { About } from './sections/About';
 import { Services } from './sections/Services';
+import { Courses } from './sections/Courses';
 import { Differentials } from './sections/Differentials';
 import { HowItWorks } from './sections/HowItWorks';
 import { CentralPhrase } from './sections/CentralPhrase';
@@ -13,11 +14,12 @@ import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
-import { AdminPanel } from './components/AdminPanel';
+import { FloatingAnnouncement } from './components/FloatingAnnouncement';
+import { TerraNova } from './pages/TerraNova';
 
 export default function App() {
-  if (window.location.pathname === '/admin') {
-    return <AdminPanel />;
+  if (window.location.pathname === '/terranova') {
+    return <TerraNova />;
   }
 
   return (
@@ -28,6 +30,7 @@ export default function App() {
         <ImpactPhrase />
         <About />
         <Services />
+        <Courses />
         <Differentials />
         <HowItWorks />
         <CentralPhrase />
@@ -38,6 +41,7 @@ export default function App() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <FloatingAnnouncement />
     </div>
   );
 }

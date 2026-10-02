@@ -2,6 +2,14 @@ import React from 'react';
 import { siteConfig } from '../data/siteConfig';
 
 export const Media = () => {
+  const getEmbedUrl = (url: string) => {
+    const videoId = url.split('v=')[1] || url.split('youtu.be/')[1]?.split('?')[0];
+    if (videoId) {
+      return `https://www.youtube.com/embed/${videoId.split('&')[0]}`;
+    }
+    return url;
+  };
+
   return (
     <section id="midia" className="py-20 bg-white">
       <div className="container mx-auto px-6 md:px-12">
@@ -17,7 +25,7 @@ export const Media = () => {
               <div className="aspect-video">
                 <iframe
                   className="w-full h-full rounded-lg shadow-lg"
-                  src={video.url}
+                  src={getEmbedUrl(video.url)}
                   title={video.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
