@@ -170,6 +170,11 @@ export const siteConfig = {
   footer: {
     copyright: "© 2026 Ludmila Deolinda. Todos os direitos reservados.",
   },
+  terraNovaCarousel: [
+    "/carousel/imagem1.jpg",
+    "/carousel/imagem2.jpg",
+    "/carousel/imagem3.jpg",
+  ],
   media: {
     title: "Eu na Mídia",
     videos: [

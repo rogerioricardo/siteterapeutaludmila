@@ -8,7 +8,7 @@ export const FloatingAnnouncement = () => {
 
   return (
     <div className="fixed bottom-32 md:bottom-6 left-6 z-50 max-w-xs">
-      <div className="relative bg-white p-6 rounded-2xl shadow-2xl border border-sage-light flex flex-col gap-2">
+      <div className="relative bg-[#F7F2E8] p-6 rounded-2xl shadow-2xl border border-sage-light flex flex-col gap-2">
         <button
           onClick={() => setIsVisible(false)}
           className="absolute -top-2 -right-2 p-1 bg-white rounded-full shadow-md text-primary-dark hover:text-red-500 transition-colors"
