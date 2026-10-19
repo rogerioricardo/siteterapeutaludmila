@@ -63,9 +63,32 @@ export const siteConfig = {
     title: "Meus Cursos",
     items: [
       {
-        title: "Curso 1",
-        description: "Em breve",
+        title: "Curso de Reiki — Níveis 1, 2 e 3",
+        description: "Desperte sua energia vital, encontre a paz interior e aprofunde sua conexão com sua essência.",
+        details: `Curso de Reiki — Níveis 1, 2 e 3
+
+Desperte sua energia vital, encontre a paz interior e aprofunde sua conexão com sua essência.
+
+O Curso de Reiki é um convite ao autoconhecimento, ao equilíbrio e à expansão da consciência. Uma oportunidade para aprender uma prática integrativa de origem japonesa, desenvolver o autocuidado e descobrir novas possibilidades de conexão consigo mesmo.
+
+Durante a formação, você conhecerá os fundamentos do Reiki, seus princípios e técnicas tradicionais, aprofundando sua prática nos níveis 1, 2 e 3, conforme o conteúdo da formação.
+
+Permita-se viver essa experiência!
+
+Se você sente o chamado para iniciar sua jornada no Reiki, será muito bem-vindo(a).
+
+📍 Local: Criciúma – SC
+👩🏫 Facilitadora: Ludmilla Deolinda — Terapeuta Integrativa
+
+🌿 Quer participar da próxima turma?
+
+Entre em contato pelo WhatsApp para manifestar seu interesse e receber informações sobre as próximas datas de formação.
+
+📲 WhatsApp: (48) 99630-2042
+
+Sua jornada de autoconhecimento pode começar com um simples passo: permitir-se aprender algo novo.`,
         link: "#",
+        backgroundImage: "/assets/images/fundo_reiki.jpg",
       },
       {
         title: "Curso 2",
@@ -129,16 +152,28 @@ export const siteConfig = {
     title: "O que dizem sobre meu trabalho",
     items: [
       {
-        content: "Encontrei na Ludmila um espaço de muita paz e acolhimento. Tem sido fundamental para meu processo de autoconhecimento.",
-        author: "Demonstração - Cliente A",
+        content: "Eu me sentia sem saída, preso em preocupações e dores do passado. Nada fazia sentido. Com o método Reconexão aprendi a me reencontrar e hoje vivo com mais leveza e alegria.",
+        author: "Evandro",
+        videoUrl: "",
+        imageUrl: "/photos/evandro.jpg",
       },
       {
-        content: "A forma como ela escuta e pontua as questões me fez enxergar caminhos que eu não via antes. Recomendo muito.",
-        author: "Demonstração - Cliente B",
+        content: "Eu vivia preso em pensamentos negativos, sem motivação e sem direção. Me sentia estagnado. Com o método Reconexão recuperei minha energia, voltei a acreditar em mim e comecei a fazer escolhas que me levam para a vida que eu quero viver.",
+        author: "Raul",
+        videoUrl: "",
+        imageUrl: "/photos/raul.jpg",
       },
       {
-        content: "Um atendimento humano e muito profissional. Sinto-me segura para falar de qualquer assunto nas sessões.",
-        author: "Demonstração - Cliente C",
+        content: "Eu estava estagnado, sem motivação e sem ver saídas. A vida tinha perdido o movimento. O método Reconexão me ajudou a sair da inércia, recuperar minha energia e voltar a viver com mais presença e propósito.",
+        author: "Arthur",
+        videoUrl: "",
+        imageUrl: "/photos/arthur.jpg",
+      },
+      {
+        content: "Eu carregava muitas prisões emocionais do passado que me impediam de avançar. Me sentia travado, sem propósito e sem direção. Com o método Reconexão aprendi a me libertar dessas cargas, reconstruir minha história e voltar a confiar em mim.",
+        author: "Andrei",
+        videoUrl: "",
+        imageUrl: "/photos/andrei.jpg",
       },
     ],
   },
@@ -174,6 +209,11 @@ export const siteConfig = {
     "/carousel/imagem1.jpg",
     "/carousel/imagem2.jpg",
     "/carousel/imagem3.jpg",
+  ],
+  eventosCarousel: [
+    "/eventos/evento1.jpg",
+    "/eventos/evento2.jpg",
+    "/eventos/evento3.jpg",
   ],
   media: {
     title: "Eu na Mídia",

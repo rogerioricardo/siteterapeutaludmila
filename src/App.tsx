@@ -10,6 +10,7 @@ import { HowItWorks } from './sections/HowItWorks';
 import { CentralPhrase } from './sections/CentralPhrase';
 import { Testimonials } from './sections/Testimonials';
 import { Media } from './sections/Media';
+import { Events } from './sections/Events';
 import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
@@ -36,6 +37,7 @@ export default function App() {
         <CentralPhrase />
         <Testimonials />
         <Media />
+        <Events />
         <FAQ />
         <Contact />
       </main>

@@ -28,7 +28,18 @@ export const Testimonials = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white p-8 rounded-2xl shadow-sm border border-sage-light flex flex-col"
             >
-              <Quote className="text-sage mb-6" size={32} />
+              {item.videoUrl ? (
+                <div className="aspect-[9/16] w-full mb-6 rounded-xl overflow-hidden">
+                  <video src={item.videoUrl} controls className="w-full h-full object-cover" />
+                </div>
+              ) : (
+                <div className="flex items-center gap-4 mb-6">
+                  {item.imageUrl && (
+                    <img src={item.imageUrl} alt={item.author} className="w-16 h-16 rounded-full object-cover border-2 border-sage-light" />
+                  )}
+                  <Quote className="text-sage" size={32} />
+                </div>
+              )}
               <p className="text-primary-dark/80 text-lg leading-relaxed mb-8 italic flex-grow">
                 “{item.content}”
               </p>
